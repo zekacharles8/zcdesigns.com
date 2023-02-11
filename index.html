@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles' portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/494edbbcec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/zk designs.png" class="logo" width="250">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi,<br> I'm <span>Charles</span><br>Zeka </h1>
+            </div> 
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tile">About Me</h1>
+                    <p>
+                        I am a creative Graphic Designer with talent for developing unique<br>
+                        custom artwork. Innovative approach to ideas and concept development.<br>
+                        Offering 6 years of expertise overseeing individual projects and brand<br>
+                        development. And a proficient Graphic Designer knowledgeable about<br>
+                        logos, marketing materials and website design. Demonstrated success at<br>
+                        providing complete business services to corporate clients.<br>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Visual design</span><br></li>
+                                <li><span>Logo design</span><br></li>
+                                <li><span>Branding</span><br></li>
+                                <li><span>Digital design</span><br></li>
+                                <li><span>Social Media Content Creation</span><br></li>
+                                <li><span>Project creation</span><br></li>
+                                <li><span>Creative Solutions</span><br></li>
+                            </ul>
+                        </div>    
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2017 - Current</span><br>Graphic Designer <br>(self employed)</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Self taught</span></li>
+                            </ul>  
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tile">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Logo Design</h2>
+                <p> Creating a good logo that shows what a<br>
+                    company does and what the brand values.<br>
+                    All about creating the perfect visual<br>
+                    brand mark for a company<br></p>
+                    <a href="#">Learn more</a>
+               </div> 
+               <div>
+                <i class="fa-solid fa-pen-fancy"></i>
+                <h2>Branding</h2>
+                <p>  Creating a distinct identity for a<br>
+                    business in the mind of your target<br>
+                    audience and consumersy<br></p>
+                    <a href="#">Learn more</a>
+               </div> 
+               <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Digital Design</h2>
+                <p> Creating a type of visual communication<br>
+                    that presents information or a product<br>
+                    or service through a digital interface.<br></p>
+                    <a href="#">Learn more</a>
+               </div> 
+            </div>  
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tile">My Work</h1>
+            <div class="class-list">
+                <div class="work">
+                    <img src="img/work 5.jpg" >
+                    <div class="layer">
+                        <h3>Logo design</h3>
+                        <p>All about creating the perfect visual<br>
+                            brand mark for a company.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work 2.jpg" >
+                    <div class="layer">
+                        <h3>Branding</h3>
+                        <p>Creating a distinct identity for a<br>
+                            business in the mind of your target<br>
+                            audience and consumersy<br></p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work 4.jpg" >
+                    <div class="layer">
+                        <h3>Digital Design</h3>
+                        <p>Creating a type of visual communication<br>
+                            that presents information or a product<br>
+                            or service through a digital interface.<br></p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>zekacharles1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+27612011377</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/zekacharles23"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/zcdesigns__/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <a href="img/Charles-Mwehu.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Charles. Made with <i class="fa-solid fa-heart"></i> by zcdesigns</p>
+        </div>
+    </div>
+
+
+
+
+ <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+ </script>
+ 
+ <script>
+
+     var sidemenu = document.getElementById("sidemenu")
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxFxfYN9qI0qm6RZbjxEhZXYTOREVonNpl61A0G-1KjBMSSVPB-uJpHu-Ao9Uyvu5eW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
